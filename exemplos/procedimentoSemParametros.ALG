@@ -1,7 +1,7 @@
-Algoritmo "Procesimento sem parâmetros"
+Algoritmo "Procedimento sem parâmetros"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Guanabara 
-// Descrição   : Exemplo de procedimento sem parâmetro
+// Descrição   : Exemplo de procedimento sem parâmetros.
 // Autor(a)    : Samuel Tank
 // Data atual  : 8/26/2021
 Var
@@ -12,15 +12,22 @@ Var
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
+// Procedimentos são subprogramas que não retornam valor(Corresponde ao "procedure" do Pascal)
 
-   Procedimento soma (x,z: Inteiro)
-   Inicio
-   res <- x + z
+   procedimento soma
+   var aux: inteiro // variável desnecessária
+   inicio
+   aux <- a + b
+   res <- aux
    Fimprocedimento
    
-   a <- 8
-   b <- 8
-   soma(a, b)
-   Escreval(res)
+   Escreva("Escolha um número para ser somado :")
+   Leia(a)
+   
+   Escreva("Escolha mais um número para ser somado: ")
+   Leia(b)
+   
+   soma
+   Escreva("O resultado da soma é igual a : ", res)
 
 Fimalgoritmo

@@ -13,18 +13,25 @@ Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 
    Escreva("*** TESTE DE I.M.C ***")
-   Escreval("")
    
-   Escreva("Qual a sua altura?: ")
-   Leia(peso)
-   Escreva("Qual o seu peso?: ")
+   Escreval(" ")
+   
+   Escreva("Qual a sua altura(m)?: ")
    Leia(altura)
+   
+   Escreva("Qual o seu peso(kg)?: ")
+   Leia(peso)
    
    imc <- (peso / (altura ^ 2))
    
-   Escreval("")
-   SE(imc < 18.5)ENTAO
-      Escreva("Classificação: MAGREZA, Grau de Obesidade: 0")
-   SENAO (imc <)
+   Escreva("Seu IMC é igual a: ", imc)
+   
+   Escreval(" ")
+   
+   SE(imc >= 18.5) E (imc < 25)ENTAO
+      Escreva("Parabéns, você está no seu peso ideal!")
+   SENAO
+      Escreva("Você não está na faixa de peso ideal!")
+   Fimse
 
 Fimalgoritmo
