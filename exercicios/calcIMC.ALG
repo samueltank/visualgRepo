@@ -1,7 +1,7 @@
 Algoritmo "Cálculo de IMC"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Guanabara 
-// Descrição   : Cálculo de IMC
+// Descrição   : Cálcula o IMC
 // Autor(a)    : Samuel Tank
 // Data atual  : 8/25/2021
 Var
@@ -12,9 +12,8 @@ Var
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 
-   Escreva("*** TESTE DE I.M.C ***")
-   
-   Escreval(" ")
+   Escreval("*** TESTE DE I.M.C ***")
+   Escreval("")
    
    Escreva("Qual a sua altura(m)?: ")
    Leia(altura)
@@ -24,9 +23,8 @@ Inicio
    
    imc <- (peso / (altura ^ 2))
    
-   Escreva("Seu IMC é igual a: ", imc)
-   
-   Escreval(" ")
+   Escreva("Seu IMC é igual a: ", imc:5:2)
+   Escreval("")
    
    SE(imc >= 18.5) E (imc < 25)ENTAO
       Escreva("Parabéns, você está no seu peso ideal!")
