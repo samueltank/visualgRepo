@@ -19,14 +19,14 @@ Inicio
    ESCREVAL("===============================")
    ESCREVAL("")
    
-   ESCREVA("QUANTOS ALUNOS HÁ NA SALA: ")
+   ESCREVA("Quantos alunos há?: ")
    LEIA(alunosTotal)
    ESCREVAL("===============================")
    
    ENQUANTO (alunosTotal >= 1) FACA
-      ESCREVA("NOME DO ALUNO: ")
+      ESCREVA("Nome do aluno(a): ")
       LEIA(nome)
-      ESCREVA("NOTA DO ALUNO: ")
+      ESCREVA("Nota do aluno(a): ")
       LEIA(nota)
       ESCREVAL("-------------------------------")
       
@@ -39,6 +39,6 @@ Inicio
       
    FIMENQUANTO
    
-   ESCREVAL("O MELHOR ALUNO É ", melhorAluno, " COM A NOTA ", maiorNota)
+   ESCREVAL("O(A) melhor aluno(a) é ", melhorAluno, " com a nota ", maiorNota)
 
 Fimalgoritmo
