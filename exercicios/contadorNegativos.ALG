@@ -1,8 +1,8 @@
 Algoritmo "Contar números negativos"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina  : [Linguagem e Lógica de Programação]
 // Professor   : Guanabara 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Descrição   : Conta o total de números negativos em uma sequência de 5 números interios.
+// Autor(a)    : Samuel Tank
 // Data atual  : 9/1/2021
 Var
 // Seção de Declarações das variáveis 
