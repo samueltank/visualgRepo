@@ -12,6 +12,10 @@ Var
 Inicio
 
    REPITA
+      ESCREVAL("================================")
+      ESCREVAL("      ESTE NÚMERO É PRIMO?      ")
+      ESCREVAL("================================")
+      ESCREVAL("")
       ESCREVA("Digite um número: ")
       LEIA(numero)
       
@@ -22,12 +26,14 @@ Inicio
          SE(numero % contador = 0) ENTAO
             totalDivisores <- totalDivisores + 1
          FIMSE
-         Escreval(contador)
+         Escreva(contador)
          contador <- contador - 1
       ATE(contador = 0)
       SE(totalDivisores = 2) ENTAO
+         escreval("")
          ESCREVAL("Este número É primo!")
       SENÃO
+         escreva("")
          ESCREVAL("Este número NÃO é primo!")
       FIMSE
       ESCREVAL("O total de divisores é", totalDivisores)
