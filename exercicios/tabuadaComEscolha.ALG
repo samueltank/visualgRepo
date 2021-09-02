@@ -1,4 +1,4 @@
-Algoritmo "tabuada de 1 a 10 * x"
+ Algoritmo "tabuada de 1 a 10 * x"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Guanabara 
 // Descrição   : Gera uma tabuada de 1 a 10 * x.
