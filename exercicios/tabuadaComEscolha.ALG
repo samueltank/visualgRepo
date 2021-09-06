@@ -19,9 +19,9 @@ Inicio
    //ATE(contador = 11)
    
    REPITA
-      ESCREVAL("=============================")
-      ESCREVAL("           TABUADA           ")
-      ESCREVAL("=============================")
+      ESCREVAL("+-----------------------------+")
+      ESCREVAL("|           TABUADA           |")
+      ESCREVAL("+-----------------------------+")
       ESCREVAL("")
 
 
@@ -32,7 +32,7 @@ Inicio
       contador <- 0
       REPITA
          res <- contador * tabuada
-         ESCREVAL(contador, " ·", tabuada," =", res) // ponto mediano ALT + 0183 (WIN)
+         ESCREVAL(contador, " ·", tabuada," =", res) // ALT + 0183 = · (WIN)
          contador <- contador + 1
       ATE(contador = 11)
       
@@ -41,6 +41,8 @@ Inicio
       LEIA(resp)
       LIMPATELA
    ATE((resp = "n") OU (resp = "N"))
+   
+   escreval("Você saiu!")
    
 
 
