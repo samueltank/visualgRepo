@@ -1,5 +1,6 @@
-Algoritmo "Contador de "
-
+Algoritmo "Contador de números entre 0 e 10"
+// Disciplina  : [Linguagem e Lógica de Programação] 
+// Professor   : Guanabara
 // Disciplina  : [Linguagem e Lógica de Programação]
 // Professor   : Guanabara 
 // Descrição   : Retorna o total de números entre dois números
