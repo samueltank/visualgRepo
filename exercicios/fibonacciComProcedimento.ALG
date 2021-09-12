@@ -26,13 +26,14 @@ Inicio
    escreva("Gostaria de ver uma  sequência de quantos termos?: ")
    leia(comprimentoSequencia)
 
-   comprimentoSequencia <- (comprimentoSequencia - 2)
+   comprimentoSequencia <- (comprimentoSequencia - 2) // subtrai 2 pois
+   // os 2 primeiros números já são impresos
    contador <- 0
-   i <- 0
-   a <- 0
-   b <- 1
+   i := 0
+   a := 0
+   b := 1
 
-   escreva("0, 1, ")
+   escreva(a,", ",b,", ")
 
    repita
    
