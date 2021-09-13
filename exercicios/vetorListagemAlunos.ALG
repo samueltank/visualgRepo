@@ -11,7 +11,8 @@ Var
    nota0: vetor[1..5] de inteiro
    nota1: vetor[1..5] de inteiro
    media: vetor[1..5] de real
-   i: inteiro // contador[i]
+   somaMedia, mediaTurma: real
+   i, alunosAcima: inteiro // contador[i]
 
 Inicio
    // Coleta de dados
@@ -30,7 +31,10 @@ Inicio
       escreva("Qual a 2º nota?: ")
       leia(nota1[i])
       media[i] <- (nota0[i] + nota1[i]) / 2
+      somaMedia <- somaMedia + media[i]
    fimpara
+   
+   mediaTurma <- somaMedia / 5
    
    limpatela
 
@@ -42,7 +46,12 @@ Inicio
    
    para i <- 1 ate 5 faca
       escreval("O Aluno(a)",nomes[i],", tem a média: ",media[i]:2)
+      se (media[i] > mediaTurma) entao
+      alunosAcima <- alunosAcima + 1
+      fimse
    fimpara
+   
+   escreval("O total de alunos acima da média(",mediaTurma:4:1," ) é:", alunosAcima)
       
       
 
