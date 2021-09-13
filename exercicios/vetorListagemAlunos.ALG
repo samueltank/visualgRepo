@@ -36,7 +36,7 @@ Inicio
 
    // Saída de Dados
    escreval("------------------------------------":35)
-   escreval("          LISTAGEM DA MÉDIA          ":35)
+   escreval("          LISTAGEM DE MÉDIA          ":35)
    escreval("------------------------------------":35)
    escreval()
    
