@@ -32,7 +32,7 @@ Inicio
         escreval(nomesTimes[i]:10," [] vs [] ")
         para j <- 1 ate 3 faca
            se(i <> j) entao
-              escreva(nomesTimes )
+              escreva(nomesTimes[i] ) // terminar
            fimse
         fimpara
      fimpara
