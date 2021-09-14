@@ -8,6 +8,7 @@ Var
 
    nomesTimes: vetor[1..3] de caractere
    i, c: inteiro // contadores [i] e [c]
+   aux: caractere
 
 Inicio
 
@@ -27,12 +28,17 @@ Inicio
    escreval("        TABELA DE PARTIDAS        ")
    escreval("==================================")
    para i <- 1 ate 3 faca
-      para c <- i+1 ate 3 faca
-         escreval(nomesTimes[i],"")
-      fimpara
+     para c <- 1 ate 2 faca
+        escreval(nomesTimes[i]:10," [] vs [] ")
+        para j <- 1 ate 3 faca
+           se(i <> j) entao
+              escreva(nomesTimes )
+           fimse
+        fimpara
+     fimpara
    fimpara
    
-  // para i <- 1 ate 3 faca      <- teste de armazenamento do vetor
+  // para i <- 1 ate 3 faca      <- teste de armazenamento no vetor
   //    escreval(nomesTimes[i])
   // fimpara
 

@@ -10,7 +10,7 @@ Var
    armazenamento: vetor[1..10] de inteiro
 
 Inicio
-   aleatorio 0,20
+   aleatorio 0,30
 
    para i <- 1 ate 10 faca
       escreva("Digite um número: ")
