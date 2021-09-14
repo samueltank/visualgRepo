@@ -7,7 +7,7 @@ Algoritmo "vetor - campeonato futebol"
 Var
 
    nomesTimes: vetor[1..3] de caractere
-   i, c: inteiro // contadores [i] e [c]
+   i, c, j: inteiro // contadores [i] e [c]
    aux: caractere
 
 Inicio
@@ -27,14 +27,13 @@ Inicio
    escreval("==================================")
    escreval("        TABELA DE PARTIDAS        ")
    escreval("==================================")
+   
    para i <- 1 ate 3 faca
-     para c <- 1 ate 2 faca
-        escreval(nomesTimes[i]:10," [] vs [] ")
-        para j <- 1 ate 3 faca
-           se(i <> j) entao
-              escreva(nomesTimes[i] ) // terminar
+     para c <- 1 ate 3 faca
+           se(i <> c) entao
+              escreval(nomesTimes[i]:10," [] vs [] ",nomesTimes[c]) // terminar
+           senao
            fimse
-        fimpara
      fimpara
    fimpara
    
