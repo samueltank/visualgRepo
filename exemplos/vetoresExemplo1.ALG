@@ -2,7 +2,7 @@ Algoritmo "Exemplo de Vetores"
 // Disciplina  : [Linguagem e Lógica de Programação]
 // Professor   : Guanabara 
 // Descrição   : Exemplos de como se utilizar vetores(Variáveis composta
-// homogenias unidimensionais).
+// homogêneas unidimensionais).
 // Autor(a)    : Samuel Tank
 // Data atual  : 9/12/2021
 Var

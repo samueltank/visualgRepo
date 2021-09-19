@@ -7,13 +7,16 @@ Algoritmo "vetor - valores matriz"
 Var
 
    matri: vetor[1..4, 1..4] de inteiro
-   i, j, somaDiagonalPrincipal: inteiro
+   i, j, somaDiagonalPrincipal, produtoSegundaLinha: inteiro
+   maiorValTerCol: inteiro
 
 Inicio
 
    aleatorio 0, 10
 
    somaDiagonalPrincipal <- 0
+   produtoSegundaLinha <- 1
+   maiorValTerCol <- 1
    
    para i <- 1 ate 4 faca
       para j <- 1 ate 4 faca
@@ -25,7 +28,22 @@ Inicio
       fimpara
    fimpara
    
+   escreval()
    escreval("O total dos valores da diogonal principal é: ", somaDiagonalPrincipal)
+
+   para i <- 1 ate 4 faca
+      produtoSegundaLinha <- produtoSegundaLinha * matri[2,i]
+   fimpara
+
+   escreval("O protudo entre os valores da segunda linha é: ", produtoSegundaLinha)
+
+   para i <- 1 ate 4 faca
+      se(matri[i, 3] > maiorValTerCol) entao
+         maiorValTerCol <- matri[i, 3]
+      fimse
+   fimpara
+   
+   escreval("O maior valor da terceira coluna é: ",maiorValTerCol)
 
    escreval()
    para i <- 1 ate 4 faca
@@ -34,5 +52,6 @@ Inicio
       fimpara
       escreval()
    fimpara
+
 
 Fimalgoritmo
